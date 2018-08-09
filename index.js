@@ -25,7 +25,7 @@ function dec(n) {
 }
 
 
-function makeInt(n) {
+function makeInt(n, 10) {
   if (n === NaN) {
     return NaN
   } else {
