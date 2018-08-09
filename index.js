@@ -27,5 +27,9 @@ function makeInt(n) {
 }
 
 function makeInt(n, 10) {
-  return parseInt(n)
+  if (n === NaN) {
+    return NaN
+  } else {
+    return parseInt(n)
+  }
 }
